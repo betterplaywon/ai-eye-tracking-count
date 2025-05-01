@@ -1,0 +1,60 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Python virtual environment
+bin/
+include/
+lib/
+lib64/
+share/
+pyvenv.cfg
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Development environment configuration files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Log files
+*.log
+
+# Output files
+*.mp4
+*.avi
+*.jpg
+*.png
+*.out
+output/
+
+# Model files
+*.pth
+*.pt
+*.h5
+*.model
+*.dat
+
+# Debug and deployment files
+dist/
+build/
+*.egg-info/
+
+# Other files
+.ipynb_checkpoints/
+*.swp
+.~lock.*
